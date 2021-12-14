@@ -12,7 +12,10 @@ setup(
     author_email='<your_email_address_here>',
     install_requires=[
         'requests',
-        'urllib3'
+        'urllib3',
+        'pylint',
+        'flake8',
+        'black'
     ],
     packages=find_packages('.'),
     package_dir={'': '.'}
