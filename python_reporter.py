@@ -13,13 +13,6 @@ import getpass
 import argparse
 from time import localtime, strftime
 from string import Template
-#!/user/bin/env python3
-"""
-New Python module
-
-Author: Chris Rasmussen
-Date: 2021
-"""
 
 try:
     import urllib3
